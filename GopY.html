@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style>
+      .from-group{
+  margin: 10px 0px ;
+ 
+}
+.from-group label{
+  font-weight: bold;
+  font-variant: small-caps;
+}
+.form-control{
+  width: 100%;
+  padding: 5px;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 3px;
+  height: 100%;
+}
+.form-control:focus{
+ background-color: yellow;
+ box-shadow: 0 0 3px red;
+ border: 1px solid yellow;
+}
+.form-button{
+  padding: 8px 30px;
+  outline: none;
+  border:none;
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: white;
+  color: orangered;
+  box-shadow: inset 0 0 20px blue;
+  margin-top: 10px;
+  text-align: center;
+  float: right;
+}
+.form-button:hover{
+  color: blue;
+  box-shadow: inset 0 0 20px blue;
+}
+.form-button:disabled{
+  color:darkgray;
+  box-shadow: inset 0 0 20px rgb(128, 99, 99);
+}
+.lienhe{
+  width: 98%;
+  border: 1px solid rgb(129, 93, 93);
+  border-radius: 10px;
+  height: 750px;
+margin-top: 2px;
+  padding: 7px;
+  box-shadow: 0 0 3px black;
+  margin-right: 10px;
+  color: black;
+  font-weight: bold;
+  
+}
+  </style>
+</head>
+<body>
+    <div class="map-container">
+      
+      </div>
+      <div class="lienhe">
+        <form action="reties.php">
+          <div class="form-group">
+            <fieldset >
+           <legend>Họ và tên:</legend>  <br>
+              <input class="form-control" type="text" placeholder="nhập họ và tên">
+            </fieldset>
+            <fieldset >
+           <legend>Lớp:</legend>  <br>
+              <input class="form-control" type="text" placeholder="nhập lớp">
+            </fieldset>
+          </div>
+          <div class="form-group">
+              <fieldset >
+                  <legend>Giới tính:</legend>
+                  <input  type="radio" name="ten" >Nam
+                  <input  type="radio" name="ten" >Nữ
+              </fieldset>
+          </div >
+          <div class="form-group">
+          <Label>Ngày sinh:</Label> <br>
+          </div>
+          <input class="form-control" type="date" >
+         
+          <div class="form-group">
+              <fieldset>
+                  <legend>Yêu Cầu</legend>
+                  <input  type="checkbox" name="ten" >Giải Đáp 
+                  <input  type="checkbox" name="ten" >Khiếu Nại
+                  <input type="checkbox" name="ten" >Phản Ánh
+                  <input type="checkbox" name="ten" >Khác
+              </fieldset>
+          </div>
+          <br>
+          <div class="form-group">
+            <fieldset>
+              <legend><label for="">HÌNH ẢNH</label></legend> <br>
+              <input type="file" id="file"> <br> <br>
+    </fieldset>
+         
+          </div>
+          <div class="form-group">
+              <label for="">Ghi chú:</label> <br>
+             <textarea name="" id="" cols="88" rows="7"></textarea> 
+          </div>
+          <hr>
+          <div >
+              <button   class="form-button">Gửi</button>
+              <button   class="form-button">Nhập Lại</button>
+          </div>
+      </form>
+    </div>
+</body>

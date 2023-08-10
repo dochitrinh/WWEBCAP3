@@ -1,0 +1,168 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.container>header{
+    height: 250px;
+    width:1000px;
+    background-image: url('img/SO-GIAO-DUC-VA-DAO-TAO-QUANG-NGAI.png');
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 25%;
+}
+.container>nav{
+    line-height:40px;
+    background-color:rgb(31, 31, 161);
+    color:white;
+    text-align:center;
+    font-variant:small-caps;
+ 
+}
+.container>article{
+    min-height:800px;
+    width:75%;
+    background-color:white;
+    float:left;
+}
+.container>aside{
+    min-height:800px;
+    width:25%;
+    background-color:lightgray;
+    float:right;
+  
+}
+.container>footer{
+    border-top:5px double orangered;
+    line-height:50px;
+    background-color:rgb(217, 224, 224);
+    text-align:center;
+    font-variant:small-caps;
+    clear:both;
+    line-height:25px;
+
+}
+
+
+h2{
+    text-align:center;
+    font-variant:small-caps;
+    color:white;
+    background-color:rgb(9, 9, 94);
+
+}
+.tintuc2{
+    width:50%;
+   float:right
+}
+.tintuc2 li{
+    list-style:none;
+    margin:10px 0;
+    padding:10px;
+    border:1px solid #ccc;
+    background-color:rgb(255, 255, 255);
+
+}
+.menuanh img{
+    width: 110%;
+    padding-left: 0px;
+}
+.menuchu{
+    width: 100%;
+}
+.menunhobenphai{
+    width: 50%;
+    float: left;
+}
+.menuchu a{
+    text-decoration: none;
+    color: blue;
+}
+.tintuc2 li a:hover{
+    color: orange;
+   
+}
+
+
+
+
+
+.menu>ul>li{
+    display:inline-block;
+    position:relative;
+   }
+   .menu>ul>li>a{
+       display:block;
+   }
+   .menu>ul{
+    padding:0px;
+    margin:0px;
+    list-style:none;
+    border-radius:3px;
+    background-color:rgb(31, 31, 161);
+    text-align:center;
+   }
+    .menu>ul>li>a{
+    text-decoration:none;
+    font-variant:small-caps;
+    font-size:larger;
+    color:white;
+    padding:0 10px;
+    line-height:40px;
+    margin:0 10px;
+  
+    }
+    .menu>ul>li>a:hover{
+    color:yellow;
+    text-decoration:underline;
+    }
+
+    .menu ul ul{
+ position:absolute;
+ display:none;
+    }
+ .menu ul ul a{ 
+ display:block;
+ }
+ .menu>ul>li:hover>ul{
+display:block;
+ }
+
+ .menu ul ul{
+ padding:0px;
+ margin:0px;
+ list-style:none;
+border-radius:3px;
+ width:200px;
+ background-color:white;
+ box-shadow:0 0 1px gray;
+ }
+
+ .menu ul ul a{
+ line-height:30px;
+ color:rgb(13, 13, 107);
+ text-decoration:none;
+ font-variant:small-caps;
+ font-size:larger;
+ padding:0 10px;
+ }
+.menu ul ul a:hover{
+ background-color:red;
+ color:white;
+}
+.canhben {
+    color: blue;
+    
+}
+.canhben1:hover{
+    color:orange;
+
+}
+marquee{
+    background-color: rgb(231, 225, 225);
+    border-radius: 5px;
+   
+}
